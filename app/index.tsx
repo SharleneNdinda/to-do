@@ -1,9 +1,11 @@
-import { Text, StyleSheet, View } from "react-native";
+import { Text, StyleSheet, View, SafeAreaView } from "react-native";
+
+
 import Task from '../components/Task';
 
 export default function Index() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.tasksWrapper}>
 
         <Text style={styles.sectionTitle}>Today's Tasks</Text>
@@ -13,7 +15,7 @@ export default function Index() {
           <Task text={'Task three'} />
       </View>
     </View>
-    </View>
+    </SafeAreaView>
       
   );
 }
@@ -21,7 +23,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:  '#E8EAED',
+    backgroundColor:  '#2C3930',
   },
   tasksWrapper: {
     paddingTop: 80,
@@ -29,7 +31,10 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 24,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: '#FFF',
   },
-  items: {}
+  items: {
+    marginTop: 30,
+  }
 });

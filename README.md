@@ -17,7 +17,7 @@ To Do is a mobile application built using React Native.
 
 Some key features include:
 
-    ✅ Be able to add to do items to user's profile.
+    ✅ Be able to display to-do items to user's profile.
 
 <br />
 
