@@ -1,4 +1,4 @@
-<h2 align="center">☁️ To Do ☁️</h2>
+<h2 align="center"> 🌻 To Do 🌻</h2>
 
   <p align="center">
     Keep track of your tasks, worklists and more ...
@@ -11,7 +11,7 @@
 
 <br />
 
-## ☁️ About The Project ☁️
+## 🥀 About The Project 🥀
 
 To Do is a mobile application built using React Native.
 
@@ -35,13 +35,11 @@ Some key features include:
     npx expo start
    ```
 
-
-## ☁️ Home Page ☁️
+## 🥀 Home Page 🥀
 
 <div>
   <a href="#">
-    <img src="" alt="home" width="256" height="556">
+    <img src="/assets/images/homepage.jpg" alt="" width="256" height="556">
   </a>
   
 </div>
-
